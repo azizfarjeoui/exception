@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Website</title>
+	<style>
+		nav {
+			background-color: #000000;
+			overflow: hidden;
+			display: flex; /* use flexbox to position items */
+			align-items: center; /* vertically center items in the navbar */
+			padding: 10px;
+			height: 100px; /* set the height of the navbar */
+		}
+
+		nav img {
+			height: 200px; /* set the height of the logo */
+			margin-right: auto; /* push the logo to the left */
+		}
+
+		nav ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			display: flex; /* use flexbox to position items */
+			align-items: center; /* vertically center items in the navbar */
+		}
+
+		nav li {
+			margin-left:20px;
+		}
+
+		nav li:first-child {
+			margin-left: 0;
+		}
+
+		nav li a {
+			display: block;
+			color: white;
+			text-align: center;
+			text-decoration: none;
+			padding: 28px 16px;
+		}
+
+		nav li a:hover {
+			background-color: #111;
+		}
+
+		.hero-image {
+			background-image: url("ho3.JPG");
+			height: 600px;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+		   
+.emailField {
+    padding: 7px 7px 7px 7px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    height: 60px;
+    width: 500px;
+    border: solid;
+    border-radius: 1px;
+    border-color: #012200;
+    border-radius: 60px;
+    background-color: #fdfffbFF;
+}
+
+.infoTextEmail {
+    border-radius: 100px;
+    padding: 10px;
+    border: none;
+    width: 275px;
+}
+
+.emailButton {
+    padding: 10px 25px;
+    color: #BDD4BC;
+    background-color: #012200;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-right: 2px;
+}
+
+.emailButton:hover {
+    color: #012200;
+    background-color: #BDD4BC;
+}
+		
+			
+
+		}
+
+		.photo-grid {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+			margin-top: 20px;
+		}
+
+		.photo-grid figure {
+			margin: 10px;
+			text-align: center;
+		}
+
+		.photo-grid figcaption {
+			font-style: italic;
+			font-size: 14px;
+			margin-top: 5px;
+		}
+
+		.photo-grid img {
+			width: 300px;
+			height: 200px;
+			object-fit: cover;
+		}
+/* styling for footer */
+footer {
+		background-color: #000000;
+		padding: 10px;
+		height: 100px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	/* styling for footer nav */
+	footer nav ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		display: flex;
+		align-items: center;
+	}
+
+	footer nav li {
+		margin-left: 20px;
+	}
+
+	footer nav li:first-child {
+		margin-left: 0;
+	}
+
+	footer nav li a {
+		display: block;
+		color: white;
+		text-align: center;
+		text-decoration: none;
+		padding: 10px;
+	}
+
+	footer nav li a:hover {
+		background-color: #111;
+	}
+       
+	</style>
+</head>
+<body>
+	<nav>
+		<img src="logo.jpg" alt="Logo"> <!-- add the logo -->
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Products</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+	</nav>
+    
+	<div class="hero-image">
+		<div class="emailField">
+			<input class="infoTextEmail" type="email" id="email" placeholder="Enter your E-mail here!">
+			<button class="emailButton">Subscribe</button>
+		</div>
+	</div>
+	<div class="photo-grid">
+		<figure>
+			<img src="hh.JPG" alt="Photo 1">
+			<figcaption>WORKWEAR HOODIE - LATTE BEIGE</figcaption>
+            <figcaption>90DT</figcaption><br>
+             <input type="submit"value="buy"/><br>
+		</figure>
+		<figure>
+			<img src="red.JPG" alt="Photo 2">
+			<figcaption>WORKWEAR HOODIE - RACING RED</figcaption>
+            <figcaption>90DT</figcaption><br>
+            <input type="submit"value="buy"/><br>
+		</figure>
+		<figure>
+			<img src="gray.JPG" alt="Photo 3">
+			<figcaption>WORKWEAR HOODIE - CARBON GRAY</figcaption>
+            <figcaption>90DT</figcaption><br>
+            <input type="submit"value="buy"/><br>
+		</figure>
+		<figure>
+			<img src="move.JPG" alt="Photo 4">
+			<figcaption>WORKWEAR HOODIE - ORCHID PURPLE</figcaption>
+            <figcaption>za3ktek </figcaption><br>
+            <input type="submit"value="buy"/><br>
+		</figure>
+		<figure>
+			<img src="green.JPG" alt="Photo 5">
+			<figcaption>WORKWEAR HOODIE - ALPINE GREEN</figcaption>
+            <figcaption>90DT</figcaption><br>
+            <input type="submit"value="buy"/><br>
+		</figure>
+        <figure>
+			<img src="blue.JPG" alt="Photo 6">
+			<figcaption>WORKWEAR HOODIE - COBALT BLUE</figcaption>
+            <figcaption>90DT</figcaption><br>
+            <input type="submit"value="buy"/><br>
+		</figure>
+        <footer>
+            <nav>
+                <ul>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+				
+            </nav>
+			
+		
+       
+    
+    
+   
